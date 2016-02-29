@@ -1,0 +1,15 @@
+Outlook,Temperature,Humidity,Windy,Paly Golf?
+Sunny,85,85,FALSE,NO
+Sunny,80,90,TRUE,NO
+Overcast,83,78,FALSE,YES
+Rainy,70,96,FALSE,YES
+Rainy,68,80,FALSE,YES
+Rainy,65,70,TRUE,NO
+Overcast,64,65,TRUE,YES
+Sunny,72,95,FALSE,NO
+Sunny,69,70,FALSE,YES
+Rainy,75,80,FALSE,YES
+Sunny,75,70,TRUE,YES
+Overcast,72,90,TRUE,YES
+Overcast,81,75,FALSE,YES
+Rainy,71,80,TRUE,NO

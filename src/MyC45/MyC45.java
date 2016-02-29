@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class MyC45 {
 	public static void main(String[] args) throws IOException{
 		// .csv data sets
-		String files[] = {"data_sets/tic_tac_toe.csv"};
+		String files[] = {"data_sets/wethear.csv"};
 		Scanner scan;
 		
 		//start loop for all files HERE
@@ -66,7 +66,7 @@ public class MyC45 {
 			totalNumClasses += i;
 		}
 		double IofD = calcIofD(classesCount); // Set information criteria
-		
+		/*
 		// TESTING DATA
 		Attribute age = new Attribute("age");
 		
@@ -84,7 +84,7 @@ public class MyC45 {
 		inV = new Val("40","yes"); age.inserVal(inV);
 		inV = new Val("40","no"); age.inserVal(inV);
 		inV = new Val("40","no"); age.inserVal(inV);
-		
+
 		System.out.println(age.toString());
 		
 		List<Integer> testCount = new ArrayList<Integer>();
@@ -94,14 +94,18 @@ public class MyC45 {
 		double testIofD =calcIofD(testCount);
 		age.setGain(testIofD, 14);
 		
-		System.out.println("I of D: " + testIofD);
+		System.out.println("IofD: " + testIofD);
 		System.out.println("age: " + age.gain);
+		*/
 		
-		/*
 		for(Attribute a: attributes){
 			System.out.println(a.toString());
+			double myIofD = calcIofD(classesCount);
+			a.setGain(myIofD,totalNumClasses);
+			System.out.println("Iofd: " + myIofD);
+			System.out.println(a.name + ": " + a.gain);
 		}
-		 */
+		
 		
 	}
 	
